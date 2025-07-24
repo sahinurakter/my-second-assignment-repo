@@ -92,7 +92,47 @@ h1{
     margin-left: 80px;
     margin-top: -50px;
 }
-
+.head{
+    text-align: center; 
+    margin: 50px;
+}
+.div-bloom{
+    margin-bottom: 130px;
+}
+.bloom-text{
+    color: aliceblue;
+    margin-top: -150px;
+    margin-left: 100px;
+}
+.bloom-pic{
+    height: 250px; width: 340px;
+    border-radius: 10px;
+}
+.ana{
+    height: 250px; width: 340px;
+    border-radius: 10px;
+}
+.section-4 a{
+     color: aliceblue;
+}
+.ana-text{
+    color: aliceblue;
+    margin-top: -150px;
+     margin-left:100px ;
+}
+.section-4{
+    display: flex;
+    margin: 20px 100px;
+    justify-content: space-between;
+}
+.zabo{
+    height:515px ;width: 680px;
+    border-radius: 10px;
+}
+.zabo-text{color: aliceblue;
+    margin-top: -250px;
+    margin-left: 250px;
+}
 @media screen and (max-width:576px ){
     .black,.gray-color{
         display: none;
