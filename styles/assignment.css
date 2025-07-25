@@ -1,5 +1,7 @@
-@media screen and (max-width:1240px ){
+
+ @media screen and (max-width:1240px ) {
     
+ }   
 div ul{
     list-style: none;
     display: flex;
@@ -176,7 +178,7 @@ h1{
     margin: 50px 100px;
     justify-content: space-between;
 }
-}
+
 @media screen and (max-width:576px ){
     .html{
         background-color: rgb(203, 217, 243);
