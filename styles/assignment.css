@@ -3,6 +3,9 @@ div ul{
     display: flex;
     gap: 40px;
 }
+.html{
+    background-color: rgb(184, 201, 233);
+}
 div ul a{
     text-decoration: none;
 
@@ -51,7 +54,7 @@ h1{
     border: none;
     color: aliceblue;
     background-color: rgba(233, 90, 8, 1);
-    padding: 20px 60px;
+    padding: 20px 80px;
 }
 .collage{
     display: grid;
@@ -96,42 +99,44 @@ h1{
     text-align: center; 
     margin: 50px;
 }
-.div-bloom{
-    margin-bottom: 130px;
+.section-4{
+    margin:20px 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 .bloom-text{
+    background-image: url(../assets/deal-bloom.png);
+     border-radius: 8px;
+    height: 190px; width: 350px;
     color: aliceblue;
-    margin-top: -150px;
-    margin-left: 100px;
+     text-align: center;place-content: center;
 }
-.bloom-pic{
-    height: 250px; width: 340px;
-    border-radius: 10px;
-}
-.ana{
-    height: 250px; width: 340px;
-    border-radius: 10px;
+.ana-text{
+    background-image: url(../assets/deal-ana.png);
+    border-radius: 8px;
+    height: 190px; width: 350px;
+     color: aliceblue;
+    text-align: center;place-content: center;
 }
 .section-4 a{
      color: aliceblue;
 }
-.ana-text{
-    color: aliceblue;
-    margin-top: -150px;
-     margin-left:100px ;
-}
-.section-4{
-    display: flex;
-    margin: 20px 100px;
-    justify-content: space-between;
-}
-.zabo{
-    height:515px ;width: 680px;
+
+.zabo-text{font-size: 20px;
+    background-image: url(../assets/deal-zabo.png);
     border-radius: 10px;
+    height: 400px;
+ width: 700px; background-repeat: repeat;
+ 
+
 }
 .zabo-text{color: aliceblue;
-    margin-top: -250px;
-    margin-left: 250px;
+    text-align: center; place-content: center;
+}
+
+.zabo{
+    grid-column: span 2;
 }
 .bunch{
     font-weight: 700;font-size: 30px; color: aliceblue;
@@ -195,5 +200,38 @@ h1{
     .collage{
         display: grid;
         grid-template-columns:repeat(2, 1fr);
+        margin-left: auto;
     }
+    .badge{
+        display: none;
+    }
+    .section-3{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+    }
+.title , .pera{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.head{
+    font-size: 10px;
+}
+.section-4{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+}
+.div-text{
+    height: 190px;
+    width: 350px;
+}
+.section-5{
+    width: auto;
+}
+.section-6{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0px;
+}
 }
