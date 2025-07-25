@@ -153,6 +153,24 @@ h1{
     border: none;
     padding: 10px;
 }
+.section-6 nav ul{
+    list-style: none;
+}
+.section-6 nav ul a{
+    text-decoration: none;
+    color:gray;
+}
+.section-6 nav ul li{
+    margin-bottom: 20px;
+}
+.section-6 nav img{
+    margin-right: 20px;
+}
+.section-6{
+    display: flex;
+    margin: 50px 100px;
+    justify-content: space-between;
+}
 @media screen and (max-width:576px ){
     .black,.gray-color{
         display: none;
