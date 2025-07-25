@@ -1,10 +1,12 @@
+@media screen and (max-width:1240px ){
+    
 div ul{
     list-style: none;
     display: flex;
     gap: 40px;
 }
 .html{
-    background-color: rgb(184, 201, 233);
+    background-color: rgb(214, 224, 243);
 }
 div ul a{
     text-decoration: none;
@@ -105,11 +107,12 @@ h1{
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+
 .bloom-text{
     background-image: url(../assets/deal-bloom.png);
      border-radius: 8px;
+     color: aliceblue;
     height: 190px; width: 350px;
-    color: aliceblue;
      text-align: center;place-content: center;
 }
 .ana-text{
@@ -173,7 +176,11 @@ h1{
     margin: 50px 100px;
     justify-content: space-between;
 }
+}
 @media screen and (max-width:576px ){
+    .html{
+        background-color: rgb(203, 217, 243);
+    }
     .black,.gray-color{
         display: none;
     }
@@ -182,22 +189,25 @@ h1{
     
     }
     .bennar{
-        
-        margin: 0px;
         flex-direction: column-reverse;
     }
     .bennar-pic{
-        width:auto;
-        margin: 0px;
+        width:345px;
+margin-left: 0px;
     }
     .text{
         align-self: self-start;
-        margin-left: 10px;
+    }
+    .sample{
+        width: 140px;
+    }
+    .btn{
+        padding: 5px 25px;
     }
     .collage{
         display: grid;
         grid-template-columns:repeat(2, 1fr);
-        margin-left: auto;
+        margin: auto;
     }
     .badge{
         display: none;
@@ -205,7 +215,6 @@ h1{
     .section-3{
         display: grid;
         grid-template-columns: 1fr;
-        margin: auto;
     }
 .title , .pera{
     margin-top: 20px;
@@ -219,16 +228,18 @@ h1{
     grid-template-columns: 1fr;
     margin: auto;
 }
-.div-text{
-    height: 190px;
-    width: 350px;
+.ana-text, .bloom-text{
+     height: 190px; width: 345px;
+     margin: auto;
 }
 .zabo-text{
-    height: 190px; width: 350px;
+    height: 190px; width: 345px;
+    margin: auto;
 }
 .section-5{
     width: auto;
 }
+
 .section-6{
     display: grid;
     grid-template-columns: 1fr;
@@ -236,6 +247,7 @@ h1{
 }
 .store{
     height: 350px;
-    width: 350px;
+    width: 345px;
+    margin-left: auto;
 }
 }
