@@ -189,13 +189,15 @@ h1{
     }
     .bennar{
         flex-direction: column-reverse;
+        margin-left: 10px;
     }
     .bennar-pic{
-        width:340px;
-margin-left: 0px;
+        width:auto;
+margin-right: 0px;
     }
     .text{
         align-self: self-start;
+        margin-left: 0px;
     }
     .sample{
         width: 140px;
@@ -228,6 +230,9 @@ margin-left: 0px;
     grid-template-columns: 1fr;
     margin: auto;
 }
+.section-4-pic{
+    margin-bottom: 10px;
+}
 .ana-text, .bloom-text{
      height: 190px; width: 345px;
      margin: auto;
@@ -248,6 +253,6 @@ margin-left: 0px;
 .store{
     height: 350px;
     width: 345px;
-    margin-left: auto;
+    margin: auto;
 }
 }
