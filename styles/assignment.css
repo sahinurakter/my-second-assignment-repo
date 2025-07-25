@@ -1,5 +1,4 @@
 
- @media screen and (max-width:1240px ){
 div ul{
     list-style: none;
     display: flex;
@@ -176,7 +175,7 @@ h1{
     margin: 50px 100px;
     justify-content: space-between;
 }
- }
+
 @media screen and (max-width:576px ){
     .html{
         background-color: rgb(203, 217, 243);
@@ -192,7 +191,7 @@ h1{
         flex-direction: column-reverse;
     }
     .bennar-pic{
-        width:345px;
+        width:340px;
 margin-left: 0px;
     }
     .text{
